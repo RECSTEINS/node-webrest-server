@@ -4,6 +4,7 @@ export class UpdateTodoDto{
         public readonly text?: string,
         public readonly completedAt?: Date,
     ){}
+    //lol
 
     get values(){
         const returnObj: {[key:string]: any} = {};
